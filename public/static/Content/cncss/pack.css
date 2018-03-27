@@ -1,0 +1,242 @@
+/* CSS Document */
+
+
+
+
+#left
+{
+    width: 250px;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 0px;
+}
+#left h2
+{
+    color: #257ab4;
+    font-size: 16pt;
+    height: 28px;
+    line-height: 28px;
+    border-bottom: 1px dotted #cbcbcb;
+    border-top: 1px dotted #cbcbcb;
+}
+#left h2 a
+{
+    color: #257ab4;
+}
+#left .lv1
+{
+    margin-top: 8px;
+    padding-left: 16px;
+}
+#left .lv1 a
+{
+    color: #444444;
+    font-weight: bold;
+    line-height: 24px;
+    text-decoration: none;
+    font-size: 12pt;
+}
+#left .active a
+{
+    color: #2579b3;
+    text-decoration: none;
+}
+#left .lv2
+{
+    padding-left: 32px;
+    padding-top: 4px;
+    margin-top: 6px;
+}
+#left .lv2 a
+{
+    color: #666666;
+    font-size: 13px;
+    font-weight: 100;
+    line-height: 20px;
+}
+#left .active
+{
+    background: url("../images/lv_bg.jpg") 0 6px no-repeat;
+}
+#left .ul2 .active
+{
+    background: url("../images/lv_bg.jpg") 16px 8px no-repeat;
+}
+#left .ul2 .active a
+{
+    color: #2579b3;
+}
+
+
+.compare
+{
+    wdith: 900px;
+    font-size: 13px;
+    color: #3c4756;
+    border-left: 1px solid #e7e7e7;
+}
+.compare td
+{
+    padding: 26px 20px;
+    border-bottom: 1px solid #e7e7e7;
+    border-right: 1px solid #e7e7e7;
+    line-height: 20px;
+}
+.compare .me
+{
+    width: 322px;
+    background: url("http://www.asc-aupair.com/Content/images/table_bg.jpg") no-repeat;
+    height: 16px;
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    line-height: 0;
+}
+.compare .other
+{
+    width: 301px;
+    background: url("http://www.asc-aupair.com/Content/images/table_bg.jpg") 0 -68px no-repeat;
+    height: 16px;
+    overflow: hidden;
+    text-align: center;
+    color: #425e8e;
+    font-weight: bold;
+    line-height: 0;
+}
+.compare .td0
+{
+    background: #c9d5e3;
+}
+.compare img
+{
+    position: relative;
+    top: 4px;
+    left: -10px;
+    float: left;
+}
+
+
+
+#contact
+{
+    padding-top: 16px;
+}
+.contact
+{
+    overflow: hidden;
+    padding-bottom: 50px;
+    padding-left: 40px;
+}
+.contact .info
+{
+    float: left;
+    width: 420px;
+    line-height: 35px;
+    color: #444444;
+    font-size: 14px;
+}
+.contact .info h2
+{
+    color: #2579b2;
+    font-size: 20px;
+}
+.contact .info table
+{
+    margin-top: 10px;
+}
+.contact .info td
+{
+    padding: 10px 4px;
+}
+.contact .map
+{
+    width: 440px;
+    height: 280px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    float: right;
+    margin-top: 40px;
+}
+
+.message
+{
+    overflow: hidden;
+    float: right;
+    padding-right: 40px;
+}
+.message td
+{
+    font-size: 13px;
+    color: #444;
+    line-height: 32px;
+    padding: 4px 0;
+}
+.message td span
+{
+    color: #ff7f00;
+}
+.message input, .message select
+{
+    width: 185px;
+    height: 25px;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+.message option
+{
+    height: 25px;
+}
+.email input
+{
+    width: 396px;
+}
+.message select
+{
+    font-size: 12px;
+    color: #444;
+}
+.message textarea
+{
+    width: 400px;
+    height: 142px;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+.submit input
+{
+    width: 114px;
+    height: 22px;
+    background: #ff7f00;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    float: right;
+}
+
+.articleContent
+{
+    font-size: 13px;
+    line-height: 200%;
+    color: #444;
+}
+
+.articleContent p
+{
+    margin-bottom: 5px;
+}
+
+.articleContent table
+{
+    border-collapse: collapse;
+    border: none;
+}
+.articleContent td
+{
+    border: solid #999 1px;
+}
+.articleContent strong
+{
+    font-weight: bold;
+}
