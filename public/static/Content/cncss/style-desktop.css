@@ -13,9 +13,49 @@
 		font-size: 12pt;
 		line-height: 1.75em;
 		min-width: 1000px;
-		background: url('images/bg02.png');
+		background: #fff;
+	}
+	section#header{		
+		line-height: 90px;		
+		padding-left: 30%;		
+		width: 100%;		
+		position: fixed;
+		top: 0px;
+		background: #fff;
+		z-index: 100000;
+		
+	}
+	section#header img
+	{
+		float: left;
+
+		height: 60px;
+		margin-top: 20px;
+		margin-right: 80px;
+		border-right: 1px solid #ccc;
 	}
 	
+	.foot img {
+		display: none;
+	}
+
+	.bannertel {
+		display: none;
+	}
+
+	.bannerbk {
+		display: none;
+	}
+
+
+	.container {
+		margin-top: 100px;
+	}
+
+	section#header nav{
+		float:left;
+		text-align: center;
+	}
 	h2
 	{
 		font-size: 1.5em;
@@ -220,6 +260,7 @@
 /* Nav                                                                           */
 /*********************************************************************************/
 
+
 	#nav
 	{
 	}
@@ -242,8 +283,7 @@
 		}
 		
 			#nav > ul > li > a
-			{
-				border-radius: 5px;
+			{				
 				color: #5d5d5d;
 				text-decoration: none;
 				padding: 0.6em 1.2em 0.6em 1.2em;
@@ -278,28 +318,27 @@
 		}
 		
 			#nav > ul > li.current_page_item > a
-			{
-				background: #d52349;
-				color: #fff !important;
+			{							
 				font-weight: 700;
+				border-bottom: 3px solid #000;
 			}
 			
 	.dropotron
 	{
-		border-radius: 5px;
-		background-color: #252122;
-		background-color: rgba(34,30,31,0.98);
+		
+		background-color: #fff;
+		background-color: #fff;
 		padding: 1.25em 1.5em 1.25em 1.5em;
 		font-style: italic;
 		min-width: 13em;
-		box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.5);
+		box-shadow: 0px 8px 15px 0px #fff;
 		text-align: left;
 	}
 	
 		.dropotron a,
 		.dropotron span
 		{
-			color: #aaa;
+			color: #000;
 			text-decoration: none;
 			-moz-transition: color .25s ease-in-out;
 			-webkit-transition: color .25s ease-in-out;

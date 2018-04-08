@@ -30,3 +30,22 @@ jQuery(function() {
 		detach: false
 	});
 });
+
+
+// jQuery(document).ready(function () {
+
+//     var p =0, t= 0;
+//   $(window).scroll(function(e){  
+
+//           p = $(this).scrollTop();  
+            
+//           if(t<=p){
+//               $('section#header').css("line-height", "60px")              
+//           }else{
+//              $('section#header').css("line-height", "100px")
+//           }  
+           
+//           setTimeout(function(){t = p;},0);         
+//   });       
+
+// });

@@ -8,8 +8,8 @@
 
 .wraper.list{width: 1000px;margin: 20px auto;}
 .wraper.list .w_l_left{width: 300px;float: left;background: #fff;padding: 10px 0px;}
-.wraper.list .w_l_left h2{width:270px;height:38px;margin:0 auto;background: url("../newimages/w_l_left_title_01.jpg") no-repeat;line-height: 32px;text-indent: 1em;color: #d6234b;}
-.wraper.list .w_l_left h2 a{color: #d6234b;font-size: 16px;}
+.wraper.list .w_l_left h2{width:270px;height:38px;margin:0 auto;line-height: 32px;text-indent: 0;color: #000;}
+.wraper.list .w_l_left h2 a{color: #000;font-size: 16px;}
 .wraper.list .w_l_left ul{width: 270px;margin:5px auto 15px;overflow: hidden;}
 .wraper.list .w_l_left ul li{border-bottom:1px dashed #ccc;padding: 10px 0px;}
 .wraper.list .w_l_left ul li.ico_tel{background: url("../newimages/asc_s_tel.png") no-repeat 5px 8px;text-indent: 3em;}
